@@ -37,6 +37,21 @@ img {
 
 .columns {
 	display: flex;
+	flex-direction: column;
+}
+
+.columns p {
+	padding: 6px;
+}
+
+.gallery {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.gallery img {
+	height: 180px;
 }
 
 /*.columns p {
